@@ -9,20 +9,41 @@
     <title>Our Services</title>
 </head>
 <body>
-        <nav class="container  navbar ">
-        <div class="container-fluid img-fluid">
-            <a class="navbar-brand" href="index.html"><img src="./img/gimil logo.png" class="image-responsive logo"></a>
-        <div class="dropdown">
-            <button class="btn btn-outline-primary dropdown-toggle px-3 p-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="./img/menu.svg" alt="my svg" class=""/>
-            </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="about-us.html">About Us</a></li>
-                    <li><a class="dropdown-item" href="our_services.html">Our Services</a></li>
-                    <li><a class="dropdown-item" href="contact_us.html">Contact Us</a></li>
-                </ul>
-        </div>
-    </nav>
+       <nav class="navbar container navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="./img/gimil logo.png" class="image-responsive logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact_us.html.#sig">Sign-Up</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Menu
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="about-us.html">About Us</a></li>
+                <li><a class="dropdown-item" href="our_services.html">Our Services</a></li>
+                <li><a class="dropdown-item" href="contact_us.html">Contact Us</a></li>
+              </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
     <section class="serv py-5 ">
        <div class="container">
             <h1 class="p-k fw-bold border-left border-left-0 display-1 text-wrap fst-italic col-12 col-md-10 col-lg-5 ts str"><span class="sp">O</span>ur Services</h1>
