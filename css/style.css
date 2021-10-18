@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:ital,wght@1,100&display=swap');
 *, body, html, .navbar-brand{
     margin: 0%;
@@ -15,8 +15,8 @@
     background-image: url('../img/18.jpg');
     background-position: initial;
 }
-gallery {
-    background-image: url('../img/bckg-img\ -\ Copy.JPG') !important;
+.gallery {
+    background-image: url('../img/bckg-img - Copy.JPG') !important;
     background-position: center;
     text-shadow: rgb(0,0,0,0);
 }
